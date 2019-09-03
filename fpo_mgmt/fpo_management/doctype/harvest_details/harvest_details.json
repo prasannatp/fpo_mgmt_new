@@ -4,28 +4,28 @@
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "date_of_harvest",
+  "staggered_harvest_date",
   "quantity"
  ],
  "fields": [
-  {
-   "fieldname": "date_of_harvest",
-   "fieldtype": "Date",
-   "in_list_view": 1,
-   "label": "Date Of Harvest",
-   "reqd": 1
-  },
   {
    "fieldname": "quantity",
    "fieldtype": "Float",
    "in_list_view": 1,
    "label": "Expected Quantity",
    "reqd": 1
+  },
+  {
+   "fieldname": "staggered_harvest_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Staggered Harvest Date",
+   "reqd": 1
   }
  ],
  "istable": 1,
- "modified": "2019-08-02 15:23:40.342892",
- "modified_by": "prasanna@csa-india.org",
+ "modified": "2019-09-03 14:51:59.841949",
+ "modified_by": "Administrator",
  "module": "FPO Management",
  "name": "Multi Harvest",
  "owner": "Administrator",
