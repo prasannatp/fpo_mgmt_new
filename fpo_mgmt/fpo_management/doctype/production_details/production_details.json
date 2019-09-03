@@ -105,8 +105,13 @@
   }
  ],
  "is_submittable": 1,
+<<<<<<< HEAD
  "modified": "2019-09-03 14:52:23.924629",
  "modified_by": "Administrator",
+=======
+ "modified": "2019-08-22 18:28:23.159418",
+ "modified_by": "prasanna@csa-india.org",
+>>>>>>> 29a0b158f075c3ae5abc703841b4ee439d891a75
  "module": "FPO Management",
  "name": "Production Details",
  "name_case": "Title Case",
