@@ -10,7 +10,6 @@
   "naming_series",
   "column_break_2",
   "supplier",
-  "supplier_group",
   "column_break_3",
   "item",
   "date_of_sowing",
@@ -72,7 +71,7 @@
    "fieldname": "harvest_details",
    "fieldtype": "Table",
    "label": "Harvest Details",
-   "options": "Harvest Details",
+   "options": "Multi Harvest",
    "reqd": 1
   },
   {
@@ -96,17 +95,11 @@
    "label": "Item",
    "options": "Item",
    "reqd": 1
-  },
-  {
-   "fetch_from": "supplier.supplier_group",
-   "fieldname": "supplier_group",
-   "fieldtype": "Read Only",
-   "label": "Supplier Group"
   }
  ],
  "is_submittable": 1,
- "modified": "2019-09-03 14:52:23.924629",
- "modified_by": "Administrator",
+ "modified": "2019-08-02 18:28:03.083732",
+ "modified_by": "prasanna@csa-india.org",
  "module": "FPO Management",
  "name": "Production Details",
  "name_case": "Title Case",
